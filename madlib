@@ -5,6 +5,7 @@
 first_verb = input('Please enter a verb:  ')
 second_noun = input('Please enter a noun:  ')
 third_adjective = input('Please enter an adjective:  ')
+
 print('I enjoy practice! I find it helps me to', first_verb,'better.')
 print('Without practice, my',second_noun,'would probably not even work.')
 print('My code is getting more',third_adjective,'every single day!')
