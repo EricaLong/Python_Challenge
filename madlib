@@ -1,0 +1,10 @@
+# This is my first python code challenge, it is called Madlib. 
+# The goal is to prompt the user for parts of speech and store them in variables, and output the template to the screen with the blanks filled out with what the user stated
+
+
+first_verb = input('Please enter a verb:  ')
+second_noun = input('Please enter a noun:  ')
+third_adjective = input('Please enter an adjective:  ')
+print('I enjoy practice! I find it helps me to', first_verb,'better.')
+print('Without practice, my',second_noun,'would probably not even work.')
+print('My code is getting more',third_adjective,'every single day!')
