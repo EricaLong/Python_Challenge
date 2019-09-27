@@ -2,10 +2,20 @@
 # The goal is to prompt the user for parts of speech and store them in variables, and output the template to the screen with the blanks filled out with what the user stated
 
 
-first_verb = input('Please enter a verb:  ')
-second_noun = input('Please enter a noun:  ')
-third_adjective = input('Please enter an adjective:  ')
+field_1 = input("Please enter a verb-ing: ")
+field_2 = input("Please enter a verb-ing: ")
+field_3 = input("Please enter a noun;place: ")
+field_4 = input("Please enter a plural noun: ")
+field_5 = input("Please enter a verb: ")
+field_6 = input("Please enter a verb: ")
+field_7 = input("Please enter a verb-ing: ")
+field_8 = input("Please enter a verb-ing: ")
+field_9 = input("Please enter a verb-ing: ")
+field_10 = input("Please enter a adjective: ")
 
-print('I enjoy practice! I find it helps me to', first_verb,'better.')
-print('Without practice, my',second_noun,'would probably not even work.')
-print('My code is getting more',third_adjective,'every single day!')
+print("I'm",field_1,"a party for my birthday.")
+print("I'm",field_2,"my best friends.")
+print("The party will be at the",field_3,"with",field_4,"for decorations.")
+print("First, we will",field_5,"some snacks,")
+print("and then we will",field_6,"some party games.")
+print("Then comes my favorite part:",field_7,"Happy Birthday,",field_8,"presents and",field_9,"some",field_10,"cake.")
